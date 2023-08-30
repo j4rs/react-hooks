@@ -6,7 +6,7 @@ Your component reacts to changes on the route, like showing a Modal:
 
 ```javascript
 import React from 'react';
-import useRoute from '../hooks/useRoute';
+import useRoute from '../useRoute';
 
 const GlobalSettingsModal = ({ system }) => {
   const currentRoute = useRoute();

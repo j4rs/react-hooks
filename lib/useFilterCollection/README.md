@@ -7,8 +7,8 @@ Search or reduce a list of anything by matching a text. Check the screenshot; it
 ```javascript
 import React from 'react';
 
-import useFilterCollection from './useFilterCollection';
-import useDebounce from '../hooks/useDebounce';
+import useFilterCollection from '../useFilterCollection';
+import useDebounce from '../useDebounce';
 
 ...
 
@@ -18,6 +18,8 @@ const Postings = ({ systemId }) => {
 
   // Debounce on filterText after 500 ms
   const searchTerm = useDebounce(filterText, 500);
+
+  ...
 
 // Filter the collection when searchTerm changes
   const filteredPostings = useFilterCollection(

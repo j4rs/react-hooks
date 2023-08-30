@@ -6,7 +6,7 @@ Wait for a delay before updating a state. It is useful, for instance, if the use
 
 ```javascript
 import React from 'react';
-import useDebounce from './useDebounce';
+import useDebounce from '../useDebounce';
 import useFilterCollection from '../useFilterCollection';
 
 const SearchForm = () => {
