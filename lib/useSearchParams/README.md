@@ -1,4 +1,4 @@
-# useFilterCollection hook
+# useSearchParams hook
 
 ## Use case
 
